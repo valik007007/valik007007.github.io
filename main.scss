@@ -1,0 +1,463 @@
+@import 'reset';
+@import 'font';
+
+header{
+    max-width: 1440px;
+    height: 700px;
+    margin: 0 auto;
+    .nav-bar{
+        width: 100%;
+        height: 100%;
+        
+        background-image: url(images/first-large.jpg);
+        background-position: center;
+    }
+    .login{
+        width: 80%;
+        height: 30%;
+        margin: 0 auto;
+        padding-top: 30px;
+        display: flex;
+        justify-content: space-between;
+        font-size: 20px;
+        font-family: 'Monsterratregular';
+        color: white;
+        .sign{
+            span span{
+                border: 3px solid white;
+                border-radius: 20px;
+                margin-left: 10px;
+            }
+        }
+        .dream{
+            font-weight: 700;
+        }
+       
+            
+    }
+    .text-center{
+    width: 80%;
+    height: 60%;
+    margin: 0 auto;
+    font-family: 'Monsterratblack', serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    p{
+        color: white;
+        margin: 20px 0;
+        font-family: 'Monsterratregular', serif;
+    }
+    span{
+        font-weight: 700;
+        font-size: 30px;
+        color: white;
+    }
+    .button{
+        width: 220px;
+        height: 40px;
+        background-color:  #FF4E50;
+        line-height: 40px;
+        text-align: center;
+        border-radius: 20px;
+
+        span{
+            font-size: 16px;
+
+        }
+    }
+    }
+}
+main{
+    padding-top: 60px;
+    margin: 0 auto;
+    p{
+        text-align: center;
+        font-weight: 500;
+        font-size: 25px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .section1{
+        width: 940px;
+        height: 100%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        font-family: 'Monsterratregular', serif;        
+    }
+    .foto{
+        width: 290px;
+        height: 400px;
+    }
+    .foto1{
+        position: relative;
+        
+    }
+    .text-second{
+        position: absolute;
+        bottom: 0;
+        // padding-top: 100px;
+        padding-left: 10px;
+        line-height: 20px;
+        align-items: flex-end;
+        
+        span{
+            font-size: 24px;
+            font-weight: 700;
+            color: white;
+        }
+        p{
+            font-size: 14px;
+            font-weight: 300;
+            color: white;
+        }
+    }
+    .button-second{
+        width: 50px;
+        font-size: 14px;
+        text-align: center;
+        border-radius: 10px;
+        margin-bottom: 30px;
+        color: white;
+        background-color: #FF4E50;
+        ;
+    }
+    .section-avatar{
+        width: 941px;
+        height: 100%;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        // border: 1px solid red;
+        p{
+            margin-top: 50px;
+        }
+        
+    }
+    .section2{
+        width: 941px;
+        height: 100%;        
+    //    border: 3px solid red;
+       display: flex;
+       flex-direction: row;
+       justify-content: space-between;
+       align-items: center;
+       font-family: 'Monsterratregular', serif;
+    }
+    .foto2{
+        width: 221px;
+        height: 205px;
+        // border: 1px solid red;
+        text-align: center;
+        
+    }
+    .button2{
+        width: 137px;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 15px;
+        border: 2px solid red;
+        border-radius: 10px;
+        span{
+            color: rgb(235, 122, 122);
+            
+        }
+    }
+    .section-fotos{
+        width: 940px;
+        height: 100%;
+        margin: 0 auto;
+        // border: 1px solid red;
+        .foto-up{
+            display: flex;
+            justify-content: space-between;
+        }
+        .foto-medium{
+            display: flex;
+            justify-content: space-between;
+            margin-top: 15px;
+            margin-bottom: 15px;
+        }
+    }
+    .search{
+        width: 90%;
+        height: 100%;
+        font-family: 'Monsterratregular,' serif;
+        margin: 0 auto;
+        text-align: center;
+        line-height: 50px;
+        span{
+            font-size: 25px;
+            font-weight: 600;
+            font-family: 'Monsterratregular', serif;
+        }
+        p{
+            font-size: 18px;
+            font-family: 'Monsterratregular', serif;
+        }
+        input[type="button"]{
+            background-color: rgb(228, 94, 94);
+            border-radius: 10px;
+            color: white;
+            width: 130px;
+        }
+    }
+    
+}
+footer{
+      width: 1440px;
+      height: 200px;
+      margin: 0 auto;
+      border-top: 4px solid red;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      font-family: 'Monsterratregular', serif;
+
+    .footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        
+
+       .onebox{
+           width: 20%;
+           height: 150px;
+        //    border: 1px solid blue;
+           flex-direction: column;
+        //    text-align: center;
+           line-height: 20px;
+           position: relative;
+           span img{
+             position: absolute;
+             left: 0;
+             top: 30px;
+           }
+       }
+    }
+    #colorred{
+        color: red;
+    }
+    #bold{
+        font-weight: 600;
+    }
+}
+
+@media screen and (max-width: 320px){
+    header{
+        width: 316px;
+        height: 540px;
+    }
+    .nav-bar{
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;    
+    }
+    .login{
+        width: 80%;
+        height: 30%;
+        margin: 0 auto;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        font-size: 20px;
+        color: white;
+    }
+    .text-center{
+        text-align: center;
+    }
+    .section1{
+        max-width: 300px;
+        height: 100%;
+        margin: 0 auto;
+        // border: 1px solid red;
+        display: flex;
+        flex-direction: column; 
+        text-align: center;          
+    }
+    .foto{
+        max-width: 300px;
+        max-height: 240px;
+        margin-bottom: 10px;
+    }
+    .text-second{
+        padding-top: 100px;
+    }
+    
+    .section-avatar{
+        max-width: 300px;
+        max-height: 100% ;
+        margin: 0 auto;
+        display: flex;
+        
+        flex-direction: column;
+        // border: 1px solid red;
+        p{
+            margin-top: 50px;
+        }
+        .button2{
+            width: 137px;
+            text-align: center;
+           
+            border: 2px solid red;
+            border-radius: 10px;
+            span{
+                color: rgb(235, 122, 122);
+                
+            }
+        }
+    }
+    .section2{
+        max-width: 300px;
+        max-height: 100%;
+        
+    //    border: 3px solid red;
+       display: flex;
+       flex-wrap: wrap;       
+    }
+    .foto2{
+        max-width: 290px;
+        height: 25%;
+        // border: 1px solid red;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .section-fotos{
+        max-width: 300px;
+        height: 100%;
+        
+        .foto-up{
+            max-width: 300px;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            .width-foto-up{
+                width: 300px;
+                height: 180px;
+                margin-bottom: 15px;
+            }
+            
+        }
+        .foto-medium{
+            width: 300px ;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            
+            .width-foto{
+                width: 300px;
+                height: 180px;
+                margin-bottom: 15px;
+                             
+            }
+            
+        }
+    }
+    footer{
+        width: 310px;
+        
+        .footer{
+            flex-direction: column;
+            .onebox{
+                width: 300px;
+                height: 100%;
+                text-align: center;
+                span img{
+                   left: 90px;
+                }
+            }
+        }
+    }
+    
+    
+}
+@media screen and (max-width: 768px) and (min-width: 321px){
+    header{
+        width: 760px;
+        height: 700px;
+    }
+    .nav-bar{
+        width: 100% ;
+        height: 100%;
+        margin: 0 auto;    
+    }
+    .login{
+        width: 80%;
+        height: 30%;
+        margin: 0 auto;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        text-align: center;
+        display: flex;
+        justify-content: space-between;
+        font-size: 20px;
+        color: white;
+    }
+    .text-center{
+        text-align: center;
+    }
+    .section1{
+        max-width: 748px;
+        height: 100%;
+        margin: 0 auto;
+        // border: 1px solid red;
+        display: flex;
+        flex-direction: row;        
+    }
+    .foto{
+        max-width: 235px;
+        height: 400px;
+    }
+    .section-avatar{
+        max-width: 492px;
+        max-height: 650px ;
+        margin: 0 auto;
+        text-align: center;        
+    }
+    .section2{
+        max-width: 100%;
+        max-height: 100%;        
+    //    border: 1px solid red;
+       display: flex;
+       flex-wrap: wrap;
+    }
+    .foto2{
+        width: 221px;
+        height: 205px;        
+    }
+    .section-fotos{
+        max-width: 748px;
+        height: 100%;        
+        .foto-up{
+            max-width: 100%;
+            .width-foto-up{
+                width: 236px;
+                height: 310px;
+                margin-bottom: 15px;
+            }
+            
+        }
+        .foto-medium{
+            width: 300px ;                     
+            .width-foto{
+                width: 235px;
+                height: 310px;
+                margin-bottom: 15px;               
+            }
+            .width492{
+                width: 492px;
+                height: 310px;               
+            }
+            .widthright{
+                margin-right: 20px;
+            }
+        }
+    }
+    footer{
+        max-width: 760px;
+    }
+    
+}
